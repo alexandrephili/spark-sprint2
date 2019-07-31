@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "656a332c457ea2f6a64f5c0922d80286",
+    "revision": "915994747f6522e486a59ee7b2b509c1",
     "url": "/spark-sprint1/index.html"
   },
   {
-    "revision": "b481b06b22004b6923b0",
+    "revision": "792e4c95bdfe9ecc5ed1",
     "url": "/spark-sprint1/static/css/main.ec20ac72.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spark-sprint1/static/js/2.08a5f9f2.chunk.js"
   },
   {
-    "revision": "b481b06b22004b6923b0",
-    "url": "/spark-sprint1/static/js/main.82011059.chunk.js"
+    "revision": "792e4c95bdfe9ecc5ed1",
+    "url": "/spark-sprint1/static/js/main.45baefed.chunk.js"
   },
   {
     "revision": "3f84296ac4c3f95a3c6e",
