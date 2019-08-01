@@ -1,10 +1,11 @@
 {
-  "name": "spark-sprint1",
-  "version": "0.1.0",
-  "homepage": "https://alexandrephili.github.io/spark-sprint1",
+  "name": "spark-sprint2",
+  "version": "0.1.2",
+  "homepage": "https://alexandrephili.github.io/spark-sprint2",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
