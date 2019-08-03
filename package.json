@@ -4,6 +4,7 @@
   "homepage": "https://alexandrephili.github.io/spark-sprint2",
   "private": true,
   "dependencies": {
+    "firebase": "^6.3.3",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
