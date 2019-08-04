@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/spark-sprint2/static/css/main.f275540e.chunk.css",
-    "main.js": "/spark-sprint2/static/js/main.bc691dde.chunk.js",
-    "main.js.map": "/spark-sprint2/static/js/main.bc691dde.chunk.js.map",
+    "main.css": "/spark-sprint2/static/css/main.9d17d5e4.chunk.css",
+    "main.js": "/spark-sprint2/static/js/main.6da1d41a.chunk.js",
+    "main.js.map": "/spark-sprint2/static/js/main.6da1d41a.chunk.js.map",
     "runtime~main.js": "/spark-sprint2/static/js/runtime~main.fb86636e.js",
     "runtime~main.js.map": "/spark-sprint2/static/js/runtime~main.fb86636e.js.map",
-    "static/js/2.4b931b8c.chunk.js": "/spark-sprint2/static/js/2.4b931b8c.chunk.js",
-    "static/js/2.4b931b8c.chunk.js.map": "/spark-sprint2/static/js/2.4b931b8c.chunk.js.map",
+    "static/js/2.d7e6a49d.chunk.js": "/spark-sprint2/static/js/2.d7e6a49d.chunk.js",
+    "static/js/2.d7e6a49d.chunk.js.map": "/spark-sprint2/static/js/2.d7e6a49d.chunk.js.map",
     "index.html": "/spark-sprint2/index.html",
-    "precache-manifest.cacf2f3546e45577a3d3aa57f6c70b94.js": "/spark-sprint2/precache-manifest.cacf2f3546e45577a3d3aa57f6c70b94.js",
+    "precache-manifest.1f94ef41f4132a3c718c203eeeef22d7.js": "/spark-sprint2/precache-manifest.1f94ef41f4132a3c718c203eeeef22d7.js",
     "service-worker.js": "/spark-sprint2/service-worker.js",
-    "static/css/main.f275540e.chunk.css.map": "/spark-sprint2/static/css/main.f275540e.chunk.css.map"
+    "static/css/main.9d17d5e4.chunk.css.map": "/spark-sprint2/static/css/main.9d17d5e4.chunk.css.map"
   }
 }
