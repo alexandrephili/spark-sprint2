@@ -2,7 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
-var config = {
+const config = {
     apiKey: "AIzaSyAcrthorfxqWbZK7G9KmJ2yeVICB5-G2sE",
     authDomain: "spark-diary.firebaseapp.com",
     databaseURL: "https://spark-diary.firebaseio.com",

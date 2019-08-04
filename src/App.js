@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import { Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
@@ -79,11 +79,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <HashRouter basename='/'>
         <Header currentUser={this.state.currentUser} />
         <Switch>
           <Route exact path='/' component={TestComp} />
           <Route path='/signin' component={SignInAndSignUpPage} />
         </Switch>
+        </HashRouter>
       </div>
     );
   }
