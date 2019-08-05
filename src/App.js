@@ -5,10 +5,11 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
-import { auth } from './firebase/firebase.utils';
+import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 import Header from './components/header/header.component.jsx';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
+import SnapshotState from 'jest-snapshot/build/State';
 
 const TestComp = props => {
   return (
@@ -64,10 +65,30 @@ class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    this.unsubscribeFromAuth = auth.onAuthStateChanged(user => {
-      this.setState({ currentUser: user})
+    this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
+      //this.setState({ currentUser: user})
+      //console.log(user);
+      //createUserProfileDocument(user);
 
-      console.log(user);
+      if (userAuth) {
+        const userRef = await createUserProfileDocument(userAuth);
+
+        userRef.onSnapshot(snapShot => { //subscribes to userRef
+            this.setState({
+              currentUser: {
+                id: snapShot.id,
+                ...snapShot.data()
+              }
+            }
+            ,
+            () => {
+              console.log(this.state);
+            }
+            );
+        });
+      }
+
+      this.setState({ currentUser: userAuth });
     });
 
   }
